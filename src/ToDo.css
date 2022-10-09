@@ -1,0 +1,127 @@
+.lg_container{
+    width:850;
+    height:95vh;
+    border: 2px solid black;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    background-color: cadetblue;
+}
+.outer_box{
+    width:500px;
+    height: 150px;
+    border: 2px solid black;
+    margin: 5% 20% 0.5% 20%;
+    text-align: center;background-color: rgb(126, 73, 126);
+    color: white;
+    padding-top: 2px;
+    border: none;
+    border-radius: 3px;
+}
+p{
+    font-size: 25px;
+}
+.inputbox{
+    padding: 8px 40px;
+    border-radius: 5px;
+    margin-top: 5px;
+    border: 0px;
+    margin-left: 5em;
+    
+
+
+}
+.inner_box{
+    display: flex;
+}
+input[type="text"]:focus{
+    outline: none;
+    
+}
+.addbtn{
+    margin-left: 3em;
+    padding: 2px 20px;
+    background-color: rgb(32, 137, 179);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+  .showitems{
+    max-height: 600px;
+     justify-content: center;
+     align-items: center;
+   
+ }  
+ 
+  
+/* .ul{
+    
+    padding: 0; 
+    list-style: none;
+}
+ li{
+    display: flex;
+      background-color: lightgray;
+     color: black;
+     justify-content: space-between; 
+     margin:2.5px;
+    padding-left: 6px;
+     */
+   
+.btn{
+    
+    border: none;
+    cursor: pointer;
+}
+/* .aditem{
+    padding: 4px;
+    padding-left: 6px;
+    font-size: 20px;
+    font-style: italic;
+}
+ 
+}
+
+} */
+.eachitem{
+    display: flex;
+    border:2px solid black;
+    text-align: center;
+    width:500px;
+    margin-left: 20%;
+    /* justify-content: space-between; */
+    background-color: lightgray;
+    border: none;
+    font-style: italic;
+   margin-bottom:10px;
+}
+
+
+
+h4{
+    padding-left: 10px;
+}
+.delbtn{
+    background-color: rgb(243, 36, 36);
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+    margin-left: 0.2em;
+}
+.editbtn{
+    background-color: rgb(79, 204, 79);
+    font-style: italic;
+    color: white;
+    font-size: 20px;  
+}
+.rembtn{
+    text-align: center;
+    border: 2px solid black;
+    margin-left: 30.5%;
+    margin-top: 15px;
+    font-style: italic;
+    background-color: rgb(126, 73, 126);
+    color: white;
+    border: none;
+   
+}
